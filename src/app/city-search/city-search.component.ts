@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherData } from './weather/'
-
+import { WeatherData } from '../models/weather.model';
+import { WeatherService } from '../services/weather.service';
 
 @Component({
   selector: 'app-city-search',
